@@ -10,7 +10,9 @@
   - name: "debug. msg"
     debug:
       msg:
+        - "ansible_hostname,ansible_system,ansible_distribution,ansible_distribution_version"
         - "{{ ansible_hostname }},{{ ansible_system }},{{ ansible_distribution }},{{ ansible_distribution_version }}"
+        #- "FACTS"
         #- "{{ FACTS }}"
 
 
