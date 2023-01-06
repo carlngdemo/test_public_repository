@@ -3,7 +3,7 @@
   hosts: all
 
   tasks:
-  - name: "setup"
+  - name: "setup. register"
     setup:
     register: FACTS
 
