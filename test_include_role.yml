@@ -1,0 +1,13 @@
+---
+- name: test include_role
+  hosts: "{{ target_group | default('all') }}"
+  gather_facts: yes
+
+  tasks:
+  - name: "include_role test_role_public"
+    include_role:
+      name: test_role_public
+
+
+...
+

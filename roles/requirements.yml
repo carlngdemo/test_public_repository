@@ -1,0 +1,23 @@
+---
+
+- name: test_role_public
+  src: https://github.com/carlngdemo/test_role_public.git
+  scm: git
+  version: origin/main
+
+
+#- name: example_repo
+#  src: https://github.com/carlngdemo/example_repo.git
+#  #src: git@github.com:carlngdemo/example_repo.git
+#  scm: git
+#  version: origin/main
+
+## Use specific branch of a repo
+#- name: my_branch
+#  src: https://github.com/carlngdemo/example_repo.git
+#  #src: git@github.com:carlngdemo/example_repo.git
+#  scm: git
+#  version: origin/my_branch
+
+...
+
